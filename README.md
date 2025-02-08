@@ -18,7 +18,7 @@ A To-Do List application with a Glassmorphism UI, smooth animations, and an intu
 ### 📥 Installation  
 
 1. **Clone the repository**  
-   git clone https://github.com/bhumibansal06/to-do.git
+   git clone https://github.com/bhumibansal06/to-do.git <br>
    cd todo-app
 
 2. **Open the index.html file in your browser**  
@@ -27,15 +27,15 @@ A To-Do List application with a Glassmorphism UI, smooth animations, and an intu
 
 ⚡ Usage
 
-   Enter a task in the input field and click the + button to add it.
-   Mark tasks as complete by clicking the checkbox (applies a strikethrough).
-   Delete tasks by clicking the 🗑️ icon.
+   Enter a task in the input field and click the + button to add it. <br>
+   Mark tasks as complete by clicking the checkbox (applies a strikethrough). <br>
+   Delete tasks by clicking the 🗑️ icon.<br>
    Enjoy a smooth, interactive experience! 🎉
 
 🛠️ Technologies Used
 
-   HTML5 – Structure
-   CSS3 – Styling (Glassmorphism & Animations)
-   JavaScript – Functionality
+   HTML5 – Structure<br>
+   CSS3 – Styling (Glassmorphism & Animations)<br>
+   JavaScript – Functionality<br>
 
 📌 Author: Bhumi Bansal
