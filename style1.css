@@ -1,0 +1,157 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background with a subtle gradient */
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a4f);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Main Container with Glassmorphism */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 380px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Heading */
+h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Input and Button */
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Add Button */
+button {
+    padding: 12px 15px;
+    border: none;
+    background: #ff4757;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff6b81;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Task Items */
+li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    gap: 10px; /* Adds spacing between elements */
+    transition: 0.3s;
+}
+
+/* Task Item Hover */
+li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Checkbox */
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #ff4757;
+    margin-right: 10px; /* Adds spacing between checkbox and text */
+}
+
+/* Task Text */
+li span {
+    flex-grow: 1; /* Ensures text takes up available space */
+    font-size: 16px;
+    text-align: left; /* Aligns text properly */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Completed Task */
+.checkbox:checked + span {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Delete Button */
+.delete {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ff4757;
+    transition: 0.3s;
+    display: flex;
+    align-items: center; /* Centers icon inside button */
+    justify-content: center;
+    padding: 5px;
+}
+
+.delete:hover {
+    color: #ff6b81;
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+}
