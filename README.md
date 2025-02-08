@@ -37,3 +37,5 @@ A To-Do List application with a Glassmorphism UI, smooth animations, and an intu
    HTML5 – Structure
    CSS3 – Styling (Glassmorphism & Animations)
    JavaScript – Functionality
+
+📌 Author: Bhumi Bansal
